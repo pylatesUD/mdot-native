@@ -1,7 +1,7 @@
+#ifdef CLASS_C_EXAMPLE
+
 #include "dot_util.h"
 #include "RadioEvent.h"
- 
-#if ACTIVE_EXAMPLE == CLASS_C_EXAMPLE
 
 /////////////////////////////////////////////////////////////////////////////
 // -------------------- DOT LIBRARY REQUIRED ------------------------------//
@@ -159,5 +159,4 @@ int main() {
     return 0;
 }
 
-#endif
-
+#endif //CLASS_C_EXAMPLE

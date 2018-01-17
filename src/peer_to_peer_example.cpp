@@ -1,7 +1,7 @@
+#ifdef PEER_TO_PEER_EXAMPLE
+
 #include "dot_util.h"
 #include "RadioEvent.h"
- 
-#if ACTIVE_EXAMPLE == PEER_TO_PEER_EXAMPLE
 
 /////////////////////////////////////////////////////////////////////////////
 // -------------------- DOT LIBRARY REQUIRED ------------------------------//
@@ -196,5 +196,4 @@ int main() {
     return 0;
 }
 
-#endif
-
+#endif //PEER_TO_PEER_EXAMPLE

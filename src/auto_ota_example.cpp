@@ -1,7 +1,7 @@
+#ifdef AUTO_OTA_EXAMPLE
+
 #include "dot_util.h"
 #include "RadioEvent.h"
- 
-#if ACTIVE_EXAMPLE == AUTO_OTA_EXAMPLE
 
 /////////////////////////////////////////////////////////////////////////////
 // -------------------- DOT LIBRARY REQUIRED ------------------------------//
@@ -166,4 +166,4 @@ int main() {
     return 0;
 }
 
-#endif
+#endif //AUTO_OTA_EXAMPLE

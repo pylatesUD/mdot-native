@@ -1,7 +1,7 @@
+#ifdef MANUAL_EXAMPLE
+
 #include "dot_util.h"
 #include "RadioEvent.h"
- 
-#if ACTIVE_EXAMPLE == MANUAL_EXAMPLE
 
 /////////////////////////////////////////////////////////////////////////////
 // -------------------- DOT LIBRARY REQUIRED ------------------------------//
@@ -171,4 +171,4 @@ int main() {
     return 0;
 }
 
-#endif
+#endif //MANUAL_EXAMPLE
