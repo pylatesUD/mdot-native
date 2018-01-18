@@ -1,16 +1,5 @@
 #ifdef AT_MODE
-/*
-#include <mbed.h>
 
-int main() {
-
-    // put your setup code here, to run once:
-
-    while(1) {
-        // put your main code here, to run repeatedly:
-    }
-}
-// */
 #include <mbed.h>
 #include <mDot.h>
 #include <CommandTerminal.h>
